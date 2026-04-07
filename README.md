@@ -39,14 +39,15 @@ El desarrollo se estructuró separando responsabilidades en servicios independie
    ```bash
    git clone [https://github.com/TU_USUARIO/metamapa-backend.git](https://github.com/TU_USUARIO/metamapa-backend.git)
    ```
+   
 2. Configurar las credenciales de la base de datos MySQL en application.properties.
 
 3. Compilar el proyecto con Maven:
-```bash
-mvn clean install
-```
+   ```bash
+   mvn clean install
+   ```
 
 4. Iniciar el servidor embebido:
-```bash
-mvn spring-boot:run
-```
+   ```bash
+   mvn spring-boot:run
+   ```
