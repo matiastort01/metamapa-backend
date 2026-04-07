@@ -7,7 +7,7 @@
 ![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
 
-> 🔗 **Nota Front-end:** Este proyecto fue desarrollado como una aplicación Full-Stack. Este repositorio contiene exclusivamente la arquitectura Backend y las APIs. Para ver la interfaz de usuario interactiva, visitá el [Repositorio del Frontend](TU_LINK_ACA).
+> 🔗 **Nota Front-end:** Este proyecto fue desarrollado como una aplicación Full-Stack. Este repositorio contiene exclusivamente la arquitectura Backend y las APIs. Para ver la interfaz de usuario interactiva, visitá el [Repositorio del Frontend](https://github.com/matiastort01/metamapa-frontend).
 
 ## 📌 Sobre el Proyecto
 
