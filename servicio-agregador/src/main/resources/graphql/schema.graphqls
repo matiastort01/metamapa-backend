@@ -1,0 +1,35 @@
+# Definición del tipo de salida (Basado en HechoOutputDTO)
+type Hecho {
+    id: ID
+    titulo: String
+    descripcion: String
+    categoria: String
+    # Path no existe en GQL, se manda como String
+    multimedia: String
+    fuente: String
+    # LocalDateTime se manda como String ISO
+    fechaHecho: String
+    # Mapeamos el DTO de ubicación anidado
+    ubicacion: Ubicacion
+    etiquetas: [String]
+    estado: String
+    usuario: String
+}
+
+type Ubicacion {
+    latitud: Float
+    longitud: Float
+    nombre: String
+}
+
+# Definición de la Query (Basado en FiltrosHechoInputDTO)
+type Query {
+    # Filtros dinámicos (Opcionales)
+    buscarHechos(
+        categoria: String,
+        fuente: String,
+        usuario: String,
+        page: Int,
+        size: Int
+    ): [Hecho]
+}

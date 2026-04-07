@@ -1,0 +1,13 @@
+package __tpa_mi_no_grupo_22.gestion_usuarios.models.entities.usuarios;
+
+public enum Permiso {
+  SUBIR_HECHOS,
+  EDITAR_HECHOS,
+  SOLICITAR_ELIMINACION,
+  PANEL_CONTROL,
+  MANIPULAR_COLECCIONES,
+  CONFIGURAR_FUENTES,
+  CONFIGURAR_ALGORITMO_CONSENSO,
+  GESTIONAR_SOLICITUD_ELIM,
+  IMPORTAR_CSV
+}
