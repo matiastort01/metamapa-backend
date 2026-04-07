@@ -38,7 +38,7 @@ El desarrollo se estructuró separando responsabilidades en servicios independie
 1. Clonar el repositorio:
    ```bash
    git clone [https://github.com/TU_USUARIO/metamapa-backend.git](https://github.com/TU_USUARIO/metamapa-backend.git)
-  ```
+   ```
 2. Configurar las credenciales de la base de datos MySQL en application.properties.
 
 3. Compilar el proyecto con Maven:
